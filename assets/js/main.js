@@ -18,9 +18,18 @@ console.log(7 % 3);
 
 // Declaration and assigment of a variable
 let firstName = "Freddy";
-let nachName = "der Schöne";
+let lastName = "der Schöne";
 const number = 33;
 
 // Output of variable
 console.log(firstName);
-console.log(`${firstName} ${nachName}`);
+console.log(firstName + " " + lastName);
+console.log(`${firstName} ${lastName}`);
+
+// Batman is the Dark Knight of Gotham City
+
+let hero = "Batman";
+let city = "Gotham";
+let color = "Dark";
+
+console.log(`${hero} is the ${color} Knight of ${city}.`);
