@@ -2,38 +2,39 @@ let headline = document.querySelector("h1");
 
 headline.style.color = "blue";
 
-// Output
-console.log("Works!");
-console.log(3 + 3);
-console.log(3 - 3);
-console.log(3 * 3);
-console.log(3 / 3);
-console.log(7 % 3);
+function introJS() {
+  // Output
+  console.log("Works!");
+  console.log(3 + 3);
+  console.log(3 - 3);
+  console.log(3 * 3);
+  console.log(3 / 3);
+  console.log(7 % 3);
 
-// Variables
-// let & const
+  // Variables
+  // let & const
 
-// Datatypes
-// string, number and boolean
+  // Datatypes
+  // string, number and boolean
 
-// Declaration and assigment of a variable
-let vorName = "Freddy";
-let nachName = "der Schöne";
-const number = 33;
+  // Declaration and assigment of a variable
+  let vorName = "Freddy";
+  let nachName = "der Schöne";
+  const number = 33;
 
-// Output of variable
-console.log(vorName);
-console.log(vorName + " " + nachName);
-console.log(`${vorName} ${nachName}`);
+  // Output of variable
+  console.log(vorName);
+  console.log(vorName + " " + nachName);
+  console.log(`${vorName} ${nachName}`);
 
-// Batman is the Dark Knight of Gotham City
+  // Batman is the Dark Knight of Gotham City
 
-let hero = "Batman";
-let city = "Gotham";
-let color = "Dark";
+  let hero = "Batman";
+  let city = "Gotham";
+  let color = "Dark";
 
-console.log(`${hero} is the ${color} Knight of ${city}.`);
-
+  console.log(`${hero} is the ${color} Knight of ${city}.`);
+}
 // Aufgabe 1_1
 function aufgabe1_1() {
   a = 12;
@@ -93,6 +94,7 @@ function aufgabe1_6() {
   );
 }
 
+introJS();
 aufgabe1_1();
 aufgabe1_5();
 aufgabe1_6();
